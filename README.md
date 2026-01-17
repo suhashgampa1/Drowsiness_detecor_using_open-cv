@@ -21,11 +21,3 @@ The system identifies specific landmarks around the eyes (indices 362, 385, 387,
 $$EAR = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2 ||p_1 - p_4||}$$
 
 Where $p_n$ are the coordinates of the eye landmarks. If the EAR remains below a threshold (e.g., 0.21) for more than 20 consecutive frames, a "DROWSINESS ALERT!" is displayed and an alarm sounds.
-
-
-## ⚙️ Installation & Usage
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/drowsiness-detector.git](https://github.com/your-username/drowsiness-detector.git)
-   cd drowsiness-detector
